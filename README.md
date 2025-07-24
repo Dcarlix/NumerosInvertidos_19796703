@@ -1,0 +1,1 @@
+En esta aplicacion de net maui, hacemos que el usuario ingrese 4 numeros en unos entry, luego al darle click al boton podra ver como en el label de abajo aparecen los numeros que el puso, pero en un orden inverso
