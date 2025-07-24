@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NumerosInvertidos19796703.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image Source="numeros.png" WidthRequest="250"/>
+            <Entry Placeholder="Numero 1" x:Name="numero1"/>
+            <Entry Placeholder="Numero 2" x:Name="numero2"/>
+            <Entry Placeholder="Numero 3" x:Name="numero3"/>
+            <Entry Placeholder="Numero 4" x:Name="numero4"/>
+            <Button Text="Invertir" Clicked="Button_Clicked"/>
+            <Label Text="Numeros invertidos" FontSize="30" x:Name="numInvertidos" HorizontalTextAlignment="Center" Margin="5"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
